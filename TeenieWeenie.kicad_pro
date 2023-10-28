@@ -232,7 +232,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -342,6 +342,10 @@
     [
       "d79052ad-b30d-48cb-904a-b15d582d373d",
       "AFE"
+    ],
+    [
+      "9be1af0e-df22-408b-86de-c6c4cd1ec847",
+      "ADC"
     ]
   ],
   "text_variables": {}

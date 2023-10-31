@@ -1038,6 +1038,10 @@
     (uuid f42e5253-a51d-45c5-a142-9d246f789727)
   )
 
+  (hierarchical_label "AudioIn_R" (shape input) (at 22.86 52.07 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 05eead35-c0a5-4133-abed-a4b02af0660b)
+  )
   (hierarchical_label "AFE0_R" (shape output) (at 256.54 53.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 42692416-93b5-4f46-a86a-120d6d74e560)
@@ -1053,6 +1057,10 @@
   (hierarchical_label "AFE0_L" (shape output) (at 256.54 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8481222a-e3e0-481d-9224-c70eeadfd682)
+  )
+  (hierarchical_label "AudioIn_L" (shape input) (at 22.86 49.53 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid bfe84a34-01ec-46bc-a35e-2a532916457f)
   )
 
   (symbol (lib_id "Device:C") (at 58.42 127 90) (unit 1)
@@ -1076,32 +1084,6 @@
       (project "TeenieWeenie"
         (path "/58e2e2d3-cf30-4313-be51-7fb67401d242/d79052ad-b30d-48cb-904a-b15d582d373d"
           (reference "C36") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 17.78 52.07 180) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0de62a23-057e-4db8-8471-444763522311)
-    (property "Reference" "J2" (at 17.78 43.18 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x02" (at 17.78 45.72 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 17.78 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 17.78 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b9553c87-ef3d-4465-bfde-f8696ff5e74d))
-    (pin "2" (uuid 20a47484-78bf-456a-b452-ae789c12ba47))
-    (instances
-      (project "TeenieWeenie"
-        (path "/58e2e2d3-cf30-4313-be51-7fb67401d242/d79052ad-b30d-48cb-904a-b15d582d373d"
-          (reference "J2") (unit 1)
         )
       )
     )
@@ -1571,7 +1553,7 @@
     (property "Value" "Conn_01x02" (at 17.78 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 17.78 120.65 0)
+    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal" (at 17.78 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 17.78 120.65 0)

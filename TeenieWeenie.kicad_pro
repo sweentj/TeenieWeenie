@@ -346,6 +346,10 @@
     [
       "9be1af0e-df22-408b-86de-c6c4cd1ec847",
       "ADC"
+    ],
+    [
+      "620606a9-8957-4afc-a718-89a87c66d877",
+      "IOSwitch"
     ]
   ],
   "text_variables": {}

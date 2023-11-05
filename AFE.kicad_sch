@@ -955,7 +955,7 @@
     (uuid f42e5253-a51d-45c5-a142-9d246f789727)
   )
 
-  (hierarchical_label "AudioIn_R" (shape input) (at 22.86 52.07 180) (fields_autoplaced)
+  (hierarchical_label "AudioR_Raw" (shape input) (at 22.86 52.07 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 05eead35-c0a5-4133-abed-a4b02af0660b)
   )
@@ -975,7 +975,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8481222a-e3e0-481d-9224-c70eeadfd682)
   )
-  (hierarchical_label "AudioIn_L" (shape input) (at 22.86 49.53 180) (fields_autoplaced)
+  (hierarchical_label "AudioL_Raw" (shape input) (at 22.86 49.53 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid bfe84a34-01ec-46bc-a35e-2a532916457f)
   )

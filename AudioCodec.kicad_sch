@@ -987,7 +987,7 @@
     (uuid f573c877-232c-416f-8e54-15c0a24c1a34)
   )
 
-  (hierarchical_label "AudioOut_R" (shape output) (at 160.02 142.24 0) (fields_autoplaced)
+  (hierarchical_label "AudioR_Dirty" (shape output) (at 160.02 142.24 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1880b2dc-fb54-4deb-8cd9-ec8f3cc05c13)
   )
@@ -1003,7 +1003,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7a30cbec-6681-4bb2-817b-8cf16964dbaf)
   )
-  (hierarchical_label "AudioOut_L" (shape output) (at 160.02 139.7 0) (fields_autoplaced)
+  (hierarchical_label "AudioL_Dirty" (shape output) (at 160.02 139.7 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 890d7733-a982-404c-b0d0-699550a3136e)
   )
